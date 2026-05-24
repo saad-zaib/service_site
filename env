@@ -1,0 +1,41 @@
+# Quote form recipient
+QUOTE_RECIPIENT_EMAIL=iamsaadkhattak@gmail.com
+
+# SMTP config — for Gmail: enable 2FA then generate an App Password at
+# https://myaccount.google.com/apppasswords
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=iamsaadkhattak@gmail.com
+SMTP_PASS=wuic jpxd tkrd mpvc
+
+# The Bridge — Passive Threat Intelligence Tool
+# Get your free VirusTotal API key at: https://www.virustotal.com/gui/my-apikey
+VT_API_KEY=745618d0da40b849bbd8f98a33e45c2b10191a8f04156bffcfa42fd28d63733e
+
+# Optional — AbuseIPDB for IP reputation (used for IP lookups only, skipped if not set)
+# Get your key at: https://www.abuseipdb.com/account/api
+ABUSEIPDB_API_KEY=3d1a7dac40e3bc414eec8a4e35b907542742541e88938786efd3d386c4a79ee358b41a1f77750987
+
+# Optional — GreyNoise Community (IPs only — noise/classification, free at greynoise.io/plans)
+GREYNOISE_API_KEY=your-greynoise-api-key
+
+# Optional — AlienVault OTX (IPs, domains, hashes — free at otx.alienvault.com)
+OTX_API_KEY=77261d2c15bce1d02f15e53284316a58a17429538dfc29d8f08fb847435ec570
+
+# Optional — IPinfo (IPs only — ASN/org/geo, free at ipinfo.io/signup)
+IPINFO_API_KEY=2adb6a001a1438
+
+# Optional — IPQualityScore (IPs + domains — fraud/proxy/VPN scoring, free at ipqualityscore.com)
+IPQS_API_KEY=3Gw4jtPWDNkh6J78y0N5nSOs624ahK0L
+
+# Optional — Censys (IPs + domains — services, certs, protocols, free at censys.io/register)
+# Both values required together; get them at app.censys.io/account/api
+CENSYS_API_ID=a2UpYzre
+CENSYS_API_SECRET=censys_a2UpYzre_JgAws4uKzZCQAcFtW5RVxyqp
+
+# Shodan full API key (OSS plan — used for host lookups with product/version/service detail)
+SHODAN_API_KEY=f9PP1caZC4XCE0h4kpNP2ZKPRbrzS3pE
+
+# abuse.ch unified Auth-Key (URLhaus + MalwareBazaar + ThreatFox — same key for all three)
+# Get free at: https://auth.abuse.ch/
+ABUSECH_API_KEY=9661c1e77fee80b1553d6ba0b7f516300f5dd28db40a4a56
