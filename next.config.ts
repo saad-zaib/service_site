@@ -6,11 +6,11 @@ const cspDirectives = [
   "default-src 'self'",
   // unsafe-inline: required for Next.js JSON-LD inline scripts
   // unsafe-eval: required by React dev tools only — omitted in production
-  `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""}`,
+  `script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com${isDev ? " 'unsafe-eval'" : ""}`,
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "img-src 'self' data: https://images.unsplash.com https://upload.wikimedia.org https://raw.githubusercontent.com https://camo.githubusercontent.com https://mermaid.ink",
-  "connect-src 'self'",
+  "connect-src 'self' https://cloudflareinsights.com",
   "frame-ancestors 'none'",
   "base-uri 'self'",
   "form-action 'self'",
