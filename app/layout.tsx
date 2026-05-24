@@ -177,7 +177,7 @@ function Footer() {
             </p>
             <ul className="space-y-2 text-sm text-[#3a4a6a]">
               {[
-                ["About", "/#about"],
+                ["About", "/about"],
                 ["The Bridge", "/the-bridge"],
                 ["Blog", "/blog"],
                 ["Industry Insights", "/industry-insights"],
